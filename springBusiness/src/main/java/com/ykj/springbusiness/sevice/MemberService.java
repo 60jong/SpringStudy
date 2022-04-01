@@ -1,20 +1,26 @@
 package com.ykj.springbusiness.sevice;
 
 import com.ykj.springbusiness.entity.Member;
-import com.ykj.springbusiness.repository.MemoryMemberRepository;
+import com.ykj.springbusiness.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
-    private MemoryMemberRepository repository = new MemoryMemberRepository();
+    private MemberRepository repository;
 
-    public MemberService(MemoryMemberRepository repository) {
+    @Autowired
+    public MemberService(MemberRepository repository) {
         this.repository = repository;
     }
 
-    public Member join(Member member) {
+    public Member join(Member member) throws SQLException {
         if (repository.findByName(member.getName()).isEmpty()) {
             return repository.save(member);
         }
