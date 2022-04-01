@@ -7,26 +7,26 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Commit;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Transactional
+@SpringBootTest
 class MemberServiceTest {
+
+    @Autowired
     MemberService service;
+    @Autowired
     MemoryMemberRepository repository;
 
-    @BeforeEach
-    void beforeEach() {
-        repository = new MemoryMemberRepository();
-        service = new MemberService(repository);
-    }
-
-    @AfterEach
-    void afterEach() {
-        repository.clearStore();
-    }
-
     @Test
-    void 회원가입() {
+    void 회원가입() throws SQLException {
         //given
         Member member = new Member();
         member.setName("YKJ");
@@ -41,7 +41,7 @@ class MemberServiceTest {
 
     }
     @Test
-    void 중복회원_회원가입() {
+    void 중복회원_회원가입() throws SQLException {
         //given
         Member member = new Member();
         member.setName("YKJ");

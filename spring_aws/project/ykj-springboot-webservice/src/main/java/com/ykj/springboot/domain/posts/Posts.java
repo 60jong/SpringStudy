@@ -7,15 +7,15 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Getter
+@Entity
 @NoArgsConstructor
-@Entity //테이블과 링크될 클래스임을 명시함.
 public class Posts {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(length = 500,nullable = false)
     private String title;
 
     @Column(columnDefinition = "TEXT",nullable = false)
