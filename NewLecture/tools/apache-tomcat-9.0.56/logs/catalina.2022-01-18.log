@@ -1,0 +1,282 @@
+18-Jan-2022 11:04:21.649 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 11:04:21.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 11:04:21.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 11:04:21.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 11:04:21.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 11:04:21.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 11:04:21.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 11:04:21.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 11:04:21.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 11:04:21.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 11:04:21.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 11:04:21.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 11:04:21.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 11:04:21.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 11:04:21.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 11:04:21.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 11:04:21.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 11:04:21.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 11:04:21.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 11:04:21.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 11:04:21.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 11:04:21.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 11:04:21.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 11:04:21.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 11:04:21.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 11:04:21.689 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 11:04:21.689 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 11:04:21.689 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 11:04:21.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 11:04:21.892 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 11:04:21.910 INFO [main] org.apache.catalina.startup.Catalina.load [455] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 11:04:21.949 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 11:04:21.950 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 11:04:22.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 11:04:22.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:22.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 11:04:22.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [638] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:22.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 11:04:22.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [49] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:22.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]을(를) 배치합니다.
+18-Jan-2022 11:04:22.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]에 대한 배치가 [21] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:22.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 11:04:23.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:23.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 11:04:23.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+18-Jan-2022 11:04:23.046 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 11:04:23.113 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1202] 밀리초 내에 시작되었습니다.
+18-Jan-2022 12:11:49.851 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 12:11:49.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 12:11:49.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 12:11:49.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 12:11:49.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:11:49.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:11:49.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 12:11:49.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 12:11:49.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 12:11:49.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 12:11:49.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 12:11:49.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 12:11:49.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 12:11:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 12:11:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 12:11:49.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 12:11:49.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:11:49.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:11:49.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 12:11:49.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 12:11:49.876 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 12:11:49.876 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 12:11:49.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 12:11:50.061 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 12:11:50.080 INFO [main] org.apache.catalina.startup.Catalina.load [384] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 12:11:50.110 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 12:11:50.112 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 12:11:50.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 12:11:50.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 12:11:50.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [468] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 12:11:50.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]을(를) 배치합니다.
+18-Jan-2022 12:11:50.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]에 대한 배치가 [21] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 12:11:50.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 12:11:50.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+18-Jan-2022 12:11:50.993 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 12:11:51.047 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [966] 밀리초 내에 시작되었습니다.
+18-Jan-2022 12:14:27.415 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 12:14:27.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 12:14:27.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 12:14:27.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:14:27.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:14:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 12:14:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 12:14:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 12:14:27.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 12:14:27.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 12:14:27.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 12:14:27.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 12:14:27.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 12:14:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 12:14:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 12:14:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:14:27.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:14:27.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 12:14:27.441 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 12:14:27.442 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 12:14:27.442 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 12:14:27.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 12:14:27.624 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 12:14:27.641 INFO [main] org.apache.catalina.startup.Catalina.load [385] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 12:14:27.672 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 12:14:27.673 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 12:14:27.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 12:14:27.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:27.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 12:14:28.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [420] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:28.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 12:14:28.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [44] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:28.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]을(를) 배치합니다.
+18-Jan-2022 12:14:28.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ITWeb]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:28.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 12:14:28.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:28.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 12:14:28.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+18-Jan-2022 12:14:28.482 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 12:14:28.535 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [893] 밀리초 내에 시작되었습니다.
+18-Jan-2022 12:20:28.072 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 12:20:28.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 12:20:28.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 12:20:28.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:20:28.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:20:28.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 12:20:28.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 12:20:28.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 12:20:28.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 12:20:28.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 12:20:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 12:20:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 12:20:28.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 12:20:28.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 12:20:28.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 12:20:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:20:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 12:20:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 12:20:28.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 12:20:28.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 12:20:28.107 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 12:20:28.110 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 12:20:28.312 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 12:20:28.331 INFO [main] org.apache.catalina.startup.Catalina.load [418] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 12:20:28.366 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 12:20:28.368 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 12:20:28.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 12:20:28.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:28.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 12:20:29.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [447] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:29.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 12:20:29.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:29.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]을(를) 배치합니다.
+18-Jan-2022 12:20:29.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:29.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 12:20:29.194 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:29.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 12:20:29.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+18-Jan-2022 12:20:29.233 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 12:20:29.286 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [953] 밀리초 내에 시작되었습니다.
+18-Jan-2022 13:16:54.936 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 13:16:54.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 13:16:54.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 13:16:54.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 13:16:54.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 13:16:54.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:16:54.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:16:54.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 13:16:54.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 13:16:54.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 13:16:54.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 13:16:54.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 13:16:54.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 13:16:54.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 13:16:54.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 13:16:54.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 13:16:54.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 13:16:54.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:16:54.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:16:54.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 13:16:54.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 13:16:54.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 13:16:54.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 13:16:54.976 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 13:16:55.171 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 13:16:55.190 INFO [main] org.apache.catalina.startup.Catalina.load [439] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 13:16:55.227 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 13:16:55.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 13:16:55.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 13:16:55.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:55.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 13:16:56.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [505] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:56.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 13:16:56.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:56.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]을(를) 배치합니다.
+18-Jan-2022 13:16:56.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]에 대한 배치가 [26] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:56.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 13:16:56.128 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:56.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 13:16:56.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+18-Jan-2022 13:16:56.168 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 13:16:56.217 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1027] 밀리초 내에 시작되었습니다.
+18-Jan-2022 13:31:38.717 WARNING [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [it]은(는) 이 조건을 충족시키지 않아 [/it](으)로 변경되었습니다.
+18-Jan-2022 13:31:38.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.56
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Dec 2 2021 14:30:07 UTC
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.56.0
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.1
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.1+12-LTS-39
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+18-Jan-2022 13:31:38.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:31:38.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:31:38.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2022 13:31:38.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2022 13:31:38.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2022 13:31:38.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2022 13:31:38.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2022 13:31:38.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\conf\logging.properties
+18-Jan-2022 13:31:38.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2022 13:31:38.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2022 13:31:38.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2022 13:31:38.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+18-Jan-2022 13:31:38.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:31:38.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56
+18-Jan-2022 13:31:38.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\temp
+18-Jan-2022 13:31:38.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.31]을(를) 로드했습니다.
+18-Jan-2022 13:31:38.744 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2022 13:31:38.744 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+18-Jan-2022 13:31:38.747 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1l  24 Aug 2021]
+18-Jan-2022 13:31:38.933 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+18-Jan-2022 13:31:38.953 INFO [main] org.apache.catalina.startup.Catalina.load [407] 밀리초 내에 서버가 초기화되었습니다.
+18-Jan-2022 13:31:38.983 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Jan-2022 13:31:38.984 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.56]
+18-Jan-2022 13:31:39.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]을(를) 배치합니다.
+18-Jan-2022 13:31:39.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\docs]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]을(를) 배치합니다.
+18-Jan-2022 13:31:39.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\examples]에 대한 배치가 [424] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]을(를) 배치합니다.
+18-Jan-2022 13:31:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\host-manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]을(를) 배치합니다.
+18-Jan-2022 13:31:39.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ItWeb]에 대한 배치가 [25] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]을(를) 배치합니다.
+18-Jan-2022 13:31:39.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\manager]에 대한 배치가 [51] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]을(를) 배치합니다.
+18-Jan-2022 13:31:39.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\tools\apache-tomcat-9.0.56\webapps\ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+18-Jan-2022 13:31:39.812 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+18-Jan-2022 13:31:39.877 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [924] 밀리초 내에 시작되었습니다.
