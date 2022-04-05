@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c67e22d3-7442-4c2b-97f5-97c920b320c0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25XcHf1EoG6foNZLFpsvorquGIO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ykj/aop/entity" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ykj.ui" />
+      <recent name="com.ykj.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\maven\mvnWEB\mine_2\src\main\java\com\ykj\aop\entity" />
+      <recent name="C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\maven\mvnWEB\mine_2\src\main\java\com\ykj\aop\ui" />
+      <recent name="C:\Users\s_rudwhd515\OneDrive - konkuk.ac.kr\Desktop\KONKUK\Programming\Back-End\NewLecture\maven\mvnWEB\mine_2\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AopMain">
+    <configuration name="AopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ykj.aop.AopMain" />
+      <module name="mine_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykj.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ykj.Main" />
+      <module name="mine_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AopMain" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c67e22d3-7442-4c2b-97f5-97c920b320c0" name="Changes" comment="" />
+      <created>1645676786459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645676786459</updated>
+      <workItem from="1645676787636" duration="3987000" />
+      <workItem from="1645680827652" duration="1999000" />
+      <workItem from="1645682860485" duration="821000" />
+      <workItem from="1645683702540" duration="953000" />
+      <workItem from="1645687075773" duration="50000" />
+      <workItem from="1645687400026" duration="1858000" />
+      <workItem from="1645692011842" duration="35000" />
+      <workItem from="1645692055741" duration="305000" />
+      <workItem from="1645692376444" duration="560000" />
+      <workItem from="1645771574029" duration="3370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mine_2$AopMain.ic" NAME="AopMain Coverage Results" MODIFIED="1645686303408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ykj.aop.*</FILTER>
+    </SUITE>
+  </component>
+</project>
