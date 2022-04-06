@@ -18,8 +18,7 @@ public interface CompanyMapper {
     @Select("select * from company")
     @Results( id="CompanyMap",value = {
         @Result(property = "name",column = "company_name"),
-        @Result(property = "address", column = "company_address"),
-            @Result(property = "employeeList", column = "id", many = @Many(select = "com.jongky.springboot.springmybatis.mapper.EmployeeMapper.getByCompanyId"))
+        @Result(property = "address", column = "company_address")
     })
     List<Company> getAll();
 

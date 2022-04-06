@@ -32,7 +32,7 @@ public class CompanyController {
 
     @GetMapping("")
     public List<Company> getAll() {
-        return mapper.getAll();
+        return service.getAll();
     }
 
     @GetMapping("/{id}")
