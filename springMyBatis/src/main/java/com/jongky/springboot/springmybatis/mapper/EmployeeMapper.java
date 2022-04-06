@@ -24,4 +24,8 @@ public interface EmployeeMapper {
     @Select("select * from employee where id = #{id}")
     @ResultMap("EmployeeMap")
     Optional<Employee> getById(@Param("id") int id);
+
+    @Select("select * from employee where company_id = #{companyId}")
+    @ResultMap("EmployeeMap")
+    List<Employee> getByCompanyId(@Param("companyId") int companyId);
 }

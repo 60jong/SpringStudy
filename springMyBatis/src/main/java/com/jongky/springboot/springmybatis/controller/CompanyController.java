@@ -2,6 +2,8 @@ package com.jongky.springboot.springmybatis.controller;
 
 import com.jongky.springboot.springmybatis.entity.Company;
 import com.jongky.springboot.springmybatis.mapper.CompanyMapper;
+
+import com.jongky.springboot.springmybatis.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,10 +15,12 @@ import java.util.Optional;
 public class CompanyController {
 
     private final CompanyMapper mapper;
+    private final CompanyService service;
 
     @Autowired
-    public CompanyController(CompanyMapper mapper) {
+    public CompanyController(CompanyMapper mapper, CompanyService service) {
         this.mapper = mapper;
+        this.service = service;
     }
 
     @PostMapping("")
@@ -35,4 +39,5 @@ public class CompanyController {
     public Optional<Company> getById(@PathVariable("id") int id) {
         return mapper.getById(id);
     }
+
 }

@@ -1,6 +1,7 @@
 package com.jongky.springboot.springmybatis.mapper;
 
 import com.jongky.springboot.springmybatis.entity.Company;
+import com.jongky.springboot.springmybatis.entity.Employee;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -17,11 +18,14 @@ public interface CompanyMapper {
     @Select("select * from company")
     @Results( id="CompanyMap",value = {
         @Result(property = "name",column = "company_name"),
-        @Result(property = "address", column = "company_address")
+        @Result(property = "address", column = "company_address"),
+            @Result(property = "employeeList", column = "id", many = @Many(select = "com.jongky.springboot.springmybatis.mapper.EmployeeMapper.getByCompanyId"))
     })
     List<Company> getAll();
 
     @Select("select * from company where id = #{id}")
     @ResultMap("CompanyMap")
     Optional<Company> getById(@Param("id") int id);
+
+
 }
