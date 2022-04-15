@@ -2,42 +2,46 @@ package com.jongky.springboot.springmybatis.controller;
 
 import com.jongky.springboot.springmybatis.entity.Company;
 import com.jongky.springboot.springmybatis.mapper.CompanyMapper;
-
-import com.jongky.springboot.springmybatis.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/company")
 public class CompanyController {
 
-    private final CompanyMapper mapper;
-    private final CompanyService service;
+    private final CompanyMapper companyMapper;
 
     @Autowired
-    public CompanyController(CompanyMapper mapper, CompanyService service) {
-        this.mapper = mapper;
-        this.service = service;
+    public CompanyController(CompanyMapper companyMapper) {
+        this.companyMapper = companyMapper;
     }
 
-    @PostMapping("")
-    public Company post(@RequestBody Company company) {
-        mapper.insert(company);
-
-        return company;
+    @GetMapping("/{id}")
+    public Company getCompany(@PathVariable("id") int id) {
+        return companyMapper.getById(id).get();
     }
 
     @GetMapping("")
     public List<Company> getAll() {
-        return service.getAll();
+        return companyMapper.getAll();
     }
 
-    @GetMapping("/{id}")
-    public Optional<Company> getById(@PathVariable("id") int id) {
-        return mapper.getById(id);
+    @PostMapping("")
+    public Company postCompany(@RequestBody Company company) {
+        companyMapper.insert(company);
+
+        return company;
+    }
+//
+//    @PutMapping("")
+//
+    @DeleteMapping("/{id}")
+    public String deleteCompany(int id) {
+        companyMapper.delete(id);
+
+        return "Delete Success";
     }
 
 }
